@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "danog/madelineproto": "^6",
+        "danog/madelineproto": "dev-master",
         "illuminate/support": "^7.0|^8.0",
         "illuminate/console": "^7.0|^8.0",
         "illuminate/database": "^7.0|^8.0"
@@ -33,7 +33,10 @@
             ]
         }
     },
-    "require-dev": {
-        "phabel/phabel": "^1.0"
-    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/danog/MadelineProto"
+        }
+    ]
 }
